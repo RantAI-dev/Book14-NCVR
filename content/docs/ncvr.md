@@ -130,4 +130,14 @@ RantAI is a dynamic Indonesian tech startup dedicated to leveraging Rust for AI-
             </div>
         </a>
     </div>
+    <div class="col-md-4 col-12 py-2">
+        <a class="text-decoration-none text-reset" href="#">
+            <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1 text-center">
+                <img src="/images/authors/alifia-mutiara-rahma.png" class="card-img-top" alt="Alifia Mutiara Rahma">
+                <div class="card-body p-0 content">
+                    <p class="fs-5 fw-semibold card-title mb-1">Alifia Mutiara Rahma</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
