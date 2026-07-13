@@ -1,0 +1,58 @@
+version: 1
+project:
+  title: Numerical Computing via Rust
+  description: ''
+  authors:
+    - userId: UkR8ZX1I0lY4DNcav9EKF38zAzL2
+      nameParsed:
+        literal: Risman Adnan, Ph.D
+        given: Ph.D
+        family: Risman Adnan
+      name: Risman Adnan, Ph.D
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-0
+    - nameParsed:
+        literal: Ayesha Ayub Syed
+        given: Ayesha Ayub
+        family: Syed
+      name: Ayesha Ayub Syed
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-1
+    - userId: KrPveBMe0VTjTZQ8oza9Gsz4pYr1
+      nameParsed:
+        literal: Alifia Mutiara Rahma
+        given: Alifia Mutiara
+        family: Rahma
+      name: Alifia Mutiara Rahma
+      orcid: 0009-0002-0720-9248
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-2
+    - userId: SURguz0nijX5jKgG0bAZrXLmW5v1
+      nameParsed:
+        literal: Ayesha Ayub
+        given: Ayesha
+        family: Ayub
+      name: Ayesha Ayub
+      corresponding: false
+      roles: []
+      affiliations: []
+      id: contributors-generated-uid-3
+  id: pqQDe4beUu67RvW3raYP
+  remote: pqQDe4beUu67RvW3raYP
+site:
+  title: Numerical Computing via Rust
+  options:
+    logo_text: Numerical Computing via Rust
+  nav:
+    - title: Numerical Computing via Rust
+      url: /numerical-computing-via-rust
+  actions:
+    - title: Learn More
+      url: https://curvenote.com/docs/web
+  domains: []

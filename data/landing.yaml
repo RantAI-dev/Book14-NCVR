@@ -1,0 +1,52 @@
+# Landing page (homepage "/") configuration — overrides the theme's data/landing.yaml.
+# Template blocks require a 'weight' parameter so they're ordered correctly.
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  badge:
+    text: v1.0.0
+    color: success # primary, secondary, success, danger, warning, info, light, dark
+    pill: false
+    soft: true
+
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo.png"
+    alt: "RantAI Logo"
+    height: 80px
+
+  title: "Welcome!"
+  subtitle: Numerical Computing via Rust (NCVR)
+  image:
+    path: "images"
+    filename: "cover.png"
+    alt: "NCVR Cover"
+    boxShadow: true
+    rounded: false
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Read Book"
+    url: "/docs/ncvr"
+  cta2Button:
+    icon: toc
+    btnText: "Table of Contents"
+    url: "/docs/table-of-contents"
+
+  info: "This book is licensed under the **MIT License**."
+
+# Feature Grid (disabled)
+featureGrid:
+  enable: false
+  weight: 20
+  template: feature grid
+
+# Image compare (disabled)
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare

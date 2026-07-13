@@ -1,0 +1,31 @@
+# NCVR part -> chapter grouping and metadata for the converter.
+# Weight scheme (matches reference Book12-CPVR):
+#   base(i) = 500 + (i-1)*600   -> part-i-main.md weight
+#   _index weight = base + 50
+#   chapter k-th in part (0-indexed) weight = base + 100 + k*100
+date: "2026-07-06T00:00:00+07:00"
+parts:
+  - roman: I
+    title: Foundations
+    chapters: [1]
+  - roman: II
+    title: Linear Systems & Function Approximation
+    chapters: [2, 3, 4, 5, 6]
+  - roman: III
+    title: Randomness & Data Ordering
+    chapters: [7, 8]
+  - roman: IV
+    title: Optimization, Roots & Eigensystems
+    chapters: [9, 10, 11]
+  - roman: V
+    title: Spectral Methods
+    chapters: [12, 13]
+  - roman: VI
+    title: Data Modeling & Inference
+    chapters: [14, 15, 16]
+  - roman: VII
+    title: Differential & Integral Equations
+    chapters: [17, 18, 19, 20]
+  - roman: VIII
+    title: Geometry & Trustworthy Execution
+    chapters: [21, 22]
